@@ -1,0 +1,56 @@
+body {
+    background-image: url("https://plus.unsplash.com/premium_photo-1661911593993-d0c5e5a7469b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHx8&w=1000&q=80");
+    background-size: cover;
+    background-position: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    align-items: center;
+    width: 350px;
+    margin: 30px auto;
+    border-radius: 50px;
+    padding: 20px 30px 30px 30px;
+    box-shadow: 0 0 1px black;
+    opacity: 1;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #CDB4DB;
+    box-shadow: 2px 2px black;
+    margin: 15px 0px;
+}
+
+#save-btn {
+    background: #A2D2FF;
+    box-shadow: 2px 2px black;
+    margin: 15px 0px;
+}
